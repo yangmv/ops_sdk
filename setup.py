@@ -9,11 +9,11 @@ from distutils.core import setup
 
 setup(
     name='opssdk',
-    version='0.0.1',
+    version='0.0.2',
     packages=['websdk'],
     url='https://github.com/yangmv/ops_sdk/',
     license='',
-    install_requires=['PyJWT'],
+    install_requires=['PyJWT','redis===2.10.6'],
     author='yangmv',
     author_email='yangmv@126.com',
     description='SDK of the operation and maintenance script'
