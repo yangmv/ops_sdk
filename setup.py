@@ -9,7 +9,7 @@ from distutils.core import setup
 
 setup(
     name='opssdk',
-    version='0.0.2',
+    version='0.0.3',
     packages=['websdk'],
     url='https://github.com/yangmv/ops_sdk/',
     license='',
