@@ -13,7 +13,7 @@ setup(
     packages=['websdk'],
     url='https://github.com/yangmv/ops_sdk/',
     license='',
-    install_requires=['PyJWT','redis===2.10.6'],
+    install_requires=['PyJWT','redis===4.4.4'],
     author='yangmv',
     author_email='yangmv@126.com',
     description='SDK of the operation and maintenance script'
